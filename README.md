@@ -54,21 +54,6 @@ System.FormatException: Format string can be only "D", "d", "N", "n", "P", "p", 
 ```
 
 As a result, the root cause is **lost**, and we cannot help our customers.
-
-## Previous Behavior (NLog 5.5)
-
-```csharp
-Log.Info("I am {age:l} years old", 30); // Output: I am {age:l} years old
-```
-
-No exception, the logger simply prints the invalid format as-is.
-
-## Current Behavior (NLog 6.0)
-
-```csharp
-Log.Info("I am {age:l} years old", 30); // Throws System.FormatException
-```
-
 Even though the format is invalid, this is **not critical enough to justify crashing** or hiding the real exception in a `catch` block.
 
 ## Request
