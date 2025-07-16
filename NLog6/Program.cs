@@ -15,6 +15,8 @@ internal static class Program
             builder.ForLogger().FilterMinLevel(LogLevel.Trace).WriteToColoredConsole();
         });
 
+        LogManager.Setup().SetupSerialization(serializationBuilder => serializationBuilder.RegisterValueFormatterWithStringQuotes());
+
         try
         {
             // Correct
