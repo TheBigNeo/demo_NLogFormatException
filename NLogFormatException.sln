@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog5", "NLog5\NLog5.csproj", "{F58729AD-D2AD-4984-9ED0-EE667E291542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog6", "NLog6\NLog6.csproj", "{12B1DD11-8AA8-43A7-BA89-BA71E3EA8175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F58729AD-D2AD-4984-9ED0-EE667E291542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58729AD-D2AD-4984-9ED0-EE667E291542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58729AD-D2AD-4984-9ED0-EE667E291542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58729AD-D2AD-4984-9ED0-EE667E291542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B1DD11-8AA8-43A7-BA89-BA71E3EA8175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B1DD11-8AA8-43A7-BA89-BA71E3EA8175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B1DD11-8AA8-43A7-BA89-BA71E3EA8175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B1DD11-8AA8-43A7-BA89-BA71E3EA8175}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
